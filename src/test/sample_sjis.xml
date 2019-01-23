@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<sample1>
+	<element1>
+		<child1>子要素１の値</child1>
+	</element1>
+
+	<element2>要素２の値</element2>
+</sample1>

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>Error</title>
+
+<style type="text/css">
+.title {
+	font-size: large;
+	background-color: #C0E0F0;
+	margin-top: 0px;
+	padding: 3px 5px;
+	font-weight: bold;
+}
+.exception {
+	font-size: medium;
+	font-weight: bold;
+	color: red;
+	margin-top: 1em;
+}
+
+.message {
+	font-size: medium;
+	font-weight: bold;
+	position: relative;
+	left: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
+
+.stacktrace {
+	position: relative;
+	left: 1em;
+}
+
+.stacks {
+	position: relative;
+	left: 2em;
+}
+</style>
+
+</head>
+
+<body>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<taglib xmlns = "http://java.sun.com/xml/ns/javaee"
+		xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation = "http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+		version = "2.1" >
+
+	<tlib-version>1.0</tlib-version>
+	<short-name>altonoteswaf-mobile</short-name>
+	<uri>http://altonotes.co.jp/waf/jsptag_m</uri>
+
+	<tag>
+		<name>text</name>
+		<tag-class>jp.co.altonotes.webapp.jsptag.m.MobileTextTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>name</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>style</name>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>format</name>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>scope</name>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<dynamic-attributes>true</dynamic-attributes>
+	</tag>
+
+	<tag>
+		<name>content-type</name>
+		<tag-class>jp.co.altonotes.webapp.jsptag.m.MobileContentTypeTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>charset</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>emoji</name>
+		<tag-class>jp.co.altonotes.webapp.jsptag.m.MobileEmojiTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>type</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>arg</name>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>mail-link</name>
+		<tag-class>jp.co.altonotes.webapp.jsptag.m.MobileMailLinkTag</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<name>subject</name>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>body</name>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>encoding</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>meta</name>
+		<tag-class>jp.co.altonotes.webapp.jsptag.m.MobileMetaTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+
+	<tag>
+		<name>icon</name>
+		<tag-class>jp.co.altonotes.webapp.jsptag.m.MobileIconTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>image</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+</taglib>

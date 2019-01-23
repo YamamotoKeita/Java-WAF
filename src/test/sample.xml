@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sample1>
+	<element1>
+		<child1>child1value</child1>
+	</element1>
+
+	<element2>element2value</element2>
+</sample1>
